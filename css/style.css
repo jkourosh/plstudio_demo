@@ -1,0 +1,234 @@
+.container {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+	width: 150px;
+	padding-inline-start: 20px;
+}
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	height: 50px;
+	background-color: white;
+	position: sticky;
+	top: 0;
+
+	z-index: 999;
+}
+@media (max-width: 500px) {
+	.navbar {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+.navbarLink {
+	padding-inline-start: 0px;
+}
+.nav-item {
+	padding-inline-end: 40px;
+}
+.nav-button {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	margin-inline-end: 100px;
+	font-size: 1rem;
+}
+.topSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	width: 85%;
+}
+.topBar {
+	width: 50%;
+	margin: auto;
+	margin-top: 110px;
+}
+.topBar span {
+	display: inline-block;
+}
+.topTitleicon {
+	
+	/* height: fit-content;*/
+	width: 90px;
+}
+.topTitleinline {
+	display: flex;
+}
+.topBarimg {
+	width: 500px;
+	position: relative;
+}
+.topTitle {
+	font-weight: 600;
+	font-size: 4rem;
+	padding-inline-end: 50px;
+}
+.topSubtitle {
+	color: gray;
+}
+.topButton {
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	margin-inline-end: 100px;
+	font-size: 1rem;
+	margin: 20px 0;
+}
+.topTextsubtitle {
+	color: gray;
+	margin-inline-start: 20px;
+}
+
+.topMiddletitle {
+	font-size: 3rem;
+	font-weight: 600px;
+}
+
+.topTag {
+	background: #f5d41c;
+	float: inline-start;
+	position: absolute;
+	border-radius: 5px;
+	padding: 1em 0.8em;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transform: rotate(-25deg);
+	width: min-content;
+	color: #fcfaf8;
+	font-size: 1.5rem;
+	left: 60px;
+	z-index: 999;
+}
+.topTagdown {
+	background: #fcfaf8;
+	padding: 20px;
+	float: inline-start;
+	position: relative;
+	top: -70px;
+	left: 60px;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transform: rotate(20deg);
+	width: min-content;
+	z-index: 999;
+}
+
+.middleSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 130px;
+}
+.midBox {
+	width: 150px;
+	padding: 30px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.midBox i {
+	color: white;
+	padding: 15px;
+	border-radius: 8px;
+	margin-inline-start: 35px;
+	margin-bottom: 20px;
+}
+.boxTitle {
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: inherit;
+}
+.boxSubtitle {
+	color: gray;
+}
+
+.bottSection {
+	background-color: rgba(161, 125, 173, 0.171);
+	position: relative;
+	top: 200px;
+}
+.bottContainer {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: auto;
+}
+.bottLeft {
+	flex: 0.5;
+	margin: auto;
+}
+.bottRight {
+	flex: 0.5;
+	margin: auto;
+	padding: 40px;
+
+	border-radius: 10px;
+	background-color: white;
+}
+.bottTitle {
+	font-size: 2rem;
+	margin: 20px 0;
+}
+.bottSubtitle {
+	color: gray;
+	font-size: large;
+}
+.bottBoxtitle {
+	font-size: 1.3rem;
+	margin: 20px 0;
+}
+.bottBoxsubtitle {
+	color: gray;
+}
+.bottText {
+	color: gray;
+}
+.bottBox {
+	width: 50%;
+}
+.bottBox i {
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+}
+.bottImage {
+	margin-top: 100px;
+}
+.phone {
+	margin: -100px auto;
+	width: 100%;
+}
+.bottDown {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+}
+
+.cont {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: -40px;
+	left: -30px;
+}
+.tag {
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: green;
+}
