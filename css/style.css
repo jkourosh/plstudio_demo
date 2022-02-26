@@ -1,5 +1,6 @@
 .container {
 	padding: 0px;
+	padding-top: 20px;
 	width: 100%;
 	margin: auto;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,7 +19,7 @@
 	background-color: white;
 	position: sticky;
 	top: 0;
-
+	font-size: 1.5rem;
 	z-index: 999;
 }
 @media (max-width: 500px) {
@@ -40,7 +41,6 @@
 	border-radius: 5px;
 	width: 150px;
 	height: 40px;
-	margin-inline-end: 100px;
 	font-size: 1rem;
 }
 .topSection {
@@ -59,8 +59,6 @@
 	display: inline-block;
 }
 .topTitleicon {
-	
-	/* height: fit-content;*/
 	width: 90px;
 }
 .topTitleinline {
@@ -101,16 +99,17 @@
 
 .topTag {
 	background: #f5d41c;
-	float: inline-start;
+	
 	position: absolute;
-	border-radius: 5px;
-	padding: 1em 0.8em;
+	border-radius: 10px;
+	padding: .6em 0.8em;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	transform: rotate(-25deg);
-	width: min-content;
+	transform: rotate(-20deg);
+	
+	text-align: center;
 	color: #fcfaf8;
 	font-size: 1.5rem;
-	left: 60px;
+	left: 65px;
 	z-index: 999;
 }
 .topTagdown {
@@ -120,13 +119,23 @@
 	position: relative;
 	top: -70px;
 	left: 60px;
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	transform: rotate(20deg);
-	width: min-content;
+	width: max-content;
 	z-index: 999;
 }
-
+.topDot {
+	color:white;
+	text-align: start;
+}
+.downDot {
+	float: right;
+	top: 0px;
+	margin-top: -40px;
+	font-size: 3rem;
+	color: rgb(255, 123, 0);
+}
 .middleSection {
 	display: flex;
 	flex-direction: row;
@@ -156,7 +165,7 @@
 	color: gray;
 }
 
-.bottSection {
+.bottomSection {
 	background-color: rgba(161, 125, 173, 0.171);
 	position: relative;
 	top: 200px;
@@ -205,7 +214,7 @@
 	border-radius: 5px;
 	color: white;
 }
-.bottImage {
+.borderImage {
 	margin-top: 100px;
 }
 .phone {
