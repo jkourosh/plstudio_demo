@@ -4,8 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/font-awesome.min.css" />
+		<link rel="stylesheet" href="./css/layout.css" />
+		<link rel="stylesheet" href="./css/header.css" />
+		<link rel="stylesheet" href="./css/hero.css" />
+		<link rel="stylesheet" href="./css/ourprocess.css" />
+		<link rel="stylesheet" href="./css/bottom.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,154 +17,148 @@
 		<title>PJStudio</title>
 	</head>
 	<body>
-		<div class="container">
-			<header>
-				<nav>
-					<div class="navbar">
-						<img src="./img/pjlogo.png" class="logo" alt="" />
-						<div class="navbarLink">
-							<span class="nav-item">Features</span>
-							<span class="nav-item">About Us</span>
-							<span class="nav-item">Pricing</span>
-							<span class="nav-item">Feedback</span>
-						</div>
-						<button class="nav-button">Request a Demo</button>
+		<header id="header">
+			<div class="container">
+				<nav class="navbar">
+					<div class="nav__logo">
+						<img src="./img/pjlogo.png" alt="pj studio" />
 					</div>
+					<ul class="nav__lists">
+						<li class="nav__list"><a class="nav__link" href="">Features</a></li>
+						<li class="nav__list"><a class="nav__link" href="">About Us</a></li>
+						<li class="nav__list"><a class="nav__link" href="">Pricing</a></li>
+						<li class="nav__list"><a class="nav__link" href="">Feedback</a></li>
+					</ul>
+					<button class="btn btn-primary">Request a Demo</button>
 				</nav>
-			</header>
-			<main>
-				<div class="topSection">
-					<div class="topBar">
-						<span class="topTitle">Web & Mobile</span>
-						<div class="topTitleinline">
-							<span class="topTitle">Design</span>
-							<img src="./img/click-icon.png" class="topTitleicon" alt="top-icon" />
-						</div>
-						<div class="topTitle">Development</div>
-						<span class="topSubtitle">Helps you to organize your incomes and expenses</span>
-						<div class="topText">
-							<button class="topButton">Try free demo ˅</button>
-						
-							<span class="topTextsubtitle">- Web, Android, iOS</span>
-						</div>
-					</div>
-					<div class="topBar">
-						<div class="cont">
-							
-							
-							<div class="topTag">
-								<div class="topDot">.</div>
-								<span>30+</span> 
-								<div style="font-size:13px;margin-top:1px;margin:auto">SSP</div>
-							</div>
-							<img src="./img/top-header.png" class="topBarimg" alt="top-header" />
-							<div class="topTagdown">
-								<div class="downDot">.</div>
-								<span style="font-size: 1.5rem; font-weight: 700">30</span>
-								<span>Min</span>
-								<div>Meeting</div>
+			</div>
+		</header>
+		<main>
+			<section id="hero">
+				<div class="container">
+					<div class="hero__wrapper">
+						<div class="hero__left--item">
+							<h1>
+								Web & Mobile <br />
+								Design
+								<span class="hero__left--item__img">
+									<img src="./img/click-icon.png" alt="top-icon" />
+								</span>
+								<br />
+								Development<br />
+							</h1>
+							<p>Helps you to organize your incomes and expenses</p>
+
+							<div class="hero__left--item_btn">
+								<button class="btn btn-primary hero_btn">
+									Try Free Demo
+									<i class="fa fa-angle-down"></i>
+								</button>
+								<p>- iOs, Android and Web.</p>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="middleSection">
-					<div class="midBox">
-						<span class="topMiddletitle">Our Process</span>
-						<div class="topSubtitle">Helps you to organize your incomes and expenses</div>
-					</div>
-					<div
-						class="midBox"
-						style="
-							background-color: rgb(248, 238, 225);
-							box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-						"
-					>
-						<i
-							class="fa fa-sign-in fa-3x"
-							aria-hidden="true"
-							style="background-color: rgb(243, 183, 105)"
-						></i>
-
-						<div class="boxTitle">Daily Standup</div>
-						<span class="boxSubtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					</div>
-					<div class="midBox" style="background-color: rgb(243, 236, 252)">
-						<i
-							class="fa fa-paper-plane-o fa-3x"
-							aria-hidden="true"
-							style="background-color: rgb(72, 127, 247)"
-						></i>
-
-						<div class="boxTitle">Weekly Sync. Meeting</div>
-						<span class="boxSubtitle">Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
-					</div>
-					<div class="midBox" style="background-color: rgb(241, 236, 241)">
-						<i
-							class="fa fa-magnet fa-3x"
-							aria-hidden="true"
-							style="background-color: rgb(248, 83, 83)"
-						></i>
-
-						<div class="boxTitle">User Testing</div>
-						<span class="boxSubtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-					</div>
-				</div>
-				<div class="borderImage">
-					<img src="./img/left.png" style="float: left" alt="left anim" />
-					<img src="./img/right.png" style="float: right" alt="right anim" />
-				</div>
-				<div class="bottomSection">
-					<div class="bottContainer">
-						<div class="bottLeft">
-							<img src="./img/phone.png" class="phone" alt="phone" />
+						<div class="hero__right--item">
+							<div class="hero__right--toptag">
+								<h2 class="hero__right--toptag-dot">.</h2>
+								<h2>30+</h2>
+								ssp
+							</div>
+							<img src="./img/hero.png" alt="PJ Studio" />
+							<div class="hero__right--downtag">
+								<h2 class="hero__right--downtag-dot">.</h2>
+								<h3>30</h3>
+								Min
+								<h4>Meeting</h4>
+							</div>
 						</div>
-						<div class="bottRight">
-							<div class="bottTop">
-								<div class="bottSubtitle">FEATURE</div>
-								<div class="bottTitle">Mobile App</div>
-								<span class="bottText"
-									>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae esse ab labore
+					</div>
+				</div>
+			</section>
+			<div class="hero__border">
+				<img src="./img/left.png" alt="left anim" />
+				<img src="./img/right.png" alt="right anim" />
+			</div>
+			<section id="our-process">
+				<div class="container">
+					<div class="process__wrapper">
+						<div class="process__item">
+							<h2>
+								Our <br />
+								Process
+							</h2>
+							<p>Helps you to organize your incomes and expenses</p>
+						</div>
+						<div class="process__item">
+							<div class="process__item--box process__active color_daily">
+								<i class="fa fa-sign-in fa-3x box--daily" aria-hidden="true"></i>
+								<h3>Daily Standup</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+						<div class="process__item">
+							<div class="process__item--box color_weekly">
+								<i class="fa fa-paper-plane-o fa-3x box--weekly" aria-hidden="true"></i>
+
+								<h3>Weekly Sync. Meeting</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+
+						<div class="process__item">
+							<div class="process__item--box color_testing">
+								<i class="fa fa-magnet fa-3x box--testing" aria-hidden="true"></i>
+								<h3>User Testing</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="bottom">
+				<div class="container">
+					<div class="bottom__wrapper">
+						<div class="bottom__wrapper--left">
+							<img src="./img/iphone.png" alt="phone" />
+						</div>
+						<div class="bottom__wrapper--right">
+							<div class="bottom__wrapper--right-top">
+								<h3>FEATURE</h3>
+								<h2>Mobile App</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae esse ab labore
 									nihil modi tempora quaerat unde aut velit, repellat fugit commodi. Asperiores,
-									odit nisi?</span
-								>
+									odit nisi?
+								</p>
 							</div>
 
-							<div class="bottDown">
-								<div class="bottBox">
+							<div class="bottom__wrapper--right-down">
+								<div class="bottom__wrapper--right-down-box">
 									<i
 										class="fa fa-map fa-2x"
 										aria-hidden="true"
 										style="background-color: rgb(29, 109, 26)"
 									></i>
 
-									<div class="bottBoxtitle">UI & UX Design</div>
+									<h3>UI & UX Design</h3>
 
-									<span class="bottBoxsubtitle"
-										>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, vel!</span
-									>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, vel!</p>
 								</div>
-								<div class="bottBox">
-									<span class="boxIcon">
-										<i
-											class="fa fa-minus-square-o fa-2x"
-											aria-hidden="true"
-											style="background-color: rgb(46, 109, 247)"
-										></i>
-									</span>
-									<div class="bottBoxtitle">Native iOS App</div>
-
-									<span class="bottBoxsubtitle"
-										>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, vel!</span
-									>
+								<div class="bottom__wrapper--right-down-box">
+									<i
+										class="fa fa-minus-square-o fa-2x"
+										aria-hidden="true"
+										style="background-color: rgb(46, 109, 247)"
+									></i>
+									<h3>Native iOS App</h3>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, vel!</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</main>
-			<footer>
-
-			</footer>
-		</div>
+			</section>
+		</main>
+		<footer></footer>
 	</body>
 </html>
