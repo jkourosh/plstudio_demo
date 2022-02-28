@@ -1,11 +1,12 @@
 #web{
-
+margin: -20rem 0;
 }
 .web__wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+
 }
 .web__wrapper--left{
     background-color: var(--light-color);
@@ -71,6 +72,8 @@ i.blue {
 	flex-direction: row;
 	justify-content: space-around;
     align-items: center;
+	margin: 5rem 0;
+
 }
 .signup__left h2{
     font-size: 5rem;

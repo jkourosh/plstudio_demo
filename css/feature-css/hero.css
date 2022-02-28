@@ -1,11 +1,16 @@
 #hero {
-	min-height: 50vh;
+	min-height: 10vh;
 }
 #hero h1 {
 	font-size: 5rem;
 	margin: auto;
 	text-align: center;
-	padding: 10rem 0;
+	padding: 5rem 0;
+}
+#hero b{
+	font-size: 5rem;
+	font-weight: 800;
+	color: var(--accent-color);
 }
 .container {
 	width: 100%;
@@ -20,18 +25,52 @@
 	);
 }
 .hero__wrapper {
-	padding: 0 20rem;
+	padding: 0 5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-content: center;
 }
+
 .hero__left {
 	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+.hero__left b{
+	font-size: 5rem;
+	font-weight: 800;
+	color: var(--accent-color);
 }
 .hero__left img {
-	height: 55%;
+	display: inline-block;
+	height: 60%;
 	border-radius: 25rem;
+}
+.hero__left--happy {
+	position: relative;
+	top:-45rem;
+	left:-7rem;
+}
+.hero__left--happy h3 {
+	display: inline-block;
+	padding: .8rem .8rem .8rem 5rem;
+
+	color: var(--light-color);
+	background-color: green;
+	border-radius: 0.8rem;
+}
+.hero__left--happy h2 {
+font-size: 2rem;
+}
+.hero__left--happy img {
+	position: absolute;
+	max-width:90%;
+	height:auto;
+	top:-3rem;
+	left:1rem;
 }
 .hero__right {
 	width: 50%;
