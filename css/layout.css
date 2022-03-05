@@ -15,20 +15,37 @@
 	--accent-color: #d57d00;
 	--light-color: #f7f7f7;
 	--secondry-color: #515151;
-	
-	
+
+	--border-radius-xs: 0.25rem;
+	--border-radius-sm: 0.5rem;
+	--border-radius-md: 1rem;
+	--border-radius-lg: 1.5rem;
+	--border-radius-xl: 2rem;
+	--border-radius-xxl: 2.5rem;
+
+	--font-size-sm: 0.75rem;
+	--font-size-md: 1rem;
+	--font-size-xl: 1.25rem;
+	--font-size-xxl: 1.5rem;
 }
 
 html {
 	font-size: 62.5%;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 	scroll-behavior: smooth;
 }
 body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 1.5rem;
 	background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
 }
 
+button,
+span,
+div,
+input {
+	font-family: inherit;
+}
 button {
 	cursor: pointer;
 	font-family: inherit;
@@ -62,7 +79,8 @@ ul {
 .btn-primary:hover {
 	background: transparent;
 	color: var(--dark-color);
-	box-shadow: 0 0 0 0.2rem var(--primary-color);
+	box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+	--webkit-box-shadow: inset 0 0 0 0.2rem var(--primary-color);
 }
 
 .navbarLink {
@@ -71,7 +89,6 @@ ul {
 .nav-item {
 	padding-inline-end: 40px;
 }
-
 
 .nav-button {
 	background-color: blueviolet;
@@ -82,4 +99,3 @@ ul {
 	height: 40px;
 	font-size: 1rem;
 }
-

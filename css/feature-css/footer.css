@@ -1,9 +1,12 @@
 #footer {
-	padding:15rem 0;
+	padding-top: 15rem;
 }
 a {
-	color: black;
+	color: var(--dark-color);
 	padding: 1rem 0;
+}
+h1 {
+	color: var(--dark-color);
 }
 .footer__wrapper {
 	padding: 6rem 2rem;
@@ -12,6 +15,7 @@ a {
 	justify-content: space-around;
 	align-items: flex-start;
 }
+
 .footer__wrapper h2 {
 	font-size: 2.2rem;
 	padding: 2rem 0;
@@ -20,25 +24,25 @@ a {
 .footer__address {
 	width: 20%;
 }
-.footer__address i{
-color: var(--accent-color);
-padding: 1rem ;
-margin: 3rem .5rem ;
-border: .1rem solid var(--accent-color);
-border-radius: 50%;
-cursor: pointer;
+.footer__address i {
+	color: var(--accent-color);
+	padding: 1rem;
+	margin: 3rem 0.5rem;
+	border: 0.1rem solid var(--accent-color);
+	border-radius: 50%;
+	cursor: pointer;
+}
 
+.footer__address i:hover {
+	color: var(--light-color);
+	background-color: var(--accent-color);
+	transition: all 0.3s linear;
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
 }
-i.active{
-    color:var(--light-color);
-    background-color: var(--accent-color);
-}
-i:hover{
-	color:var(--light-color);
-    background-color: var(--accent-color);
-	transition: all 0.3s ease-in-out;
-	transform: scale(1.1);
-}
+
 .footer__address h2 {
 	font-size: 6rem;
 	color: var(--dark-color);
@@ -49,19 +53,13 @@ i:hover{
 }
 .footer__address span b {
 	font-size: 60%;
-	color: black;
+	color: var(--dark-color);
 	display: table-caption;
 }
 
 .footer__address p {
-    font-size: 2rem;
+	font-size: 2rem;
 	color: var(--secondry-color);
-}
-.footer__resource {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
 }
 .footer__link {
 	display: flex;
@@ -69,26 +67,36 @@ i:hover{
 	justify-content: flex-start;
 	align-items: flex-start;
 }
-.footer__news p{
-    font-size: 2rem;
-    color: var(--secondry-color);
-    font-weight: 700px;
+.footer__link a {
+	font-size: 1.7rem;
+	font-weight: 100;
+}
+
+.footer__link a:hover {
+font-style: italic;
+	
+	
+}
+
+.footer__news p {
+	font-size: 2rem;
+	color: var(--secondry-color);
+	font-weight: 700px;
 }
 .footer__news--form {
 	width: 30rem;
 	padding: 1rem 0;
 	position: relative;
-   
 }
 .footer__news input {
 	/* margin: 1px;*/
-	padding: 1rem; 
+	padding: 1rem;
 	width: 100%;
 	outline: none;
 	height: 4.5rem;
-    border: .1rem solid var(--primary-color);
-	border-radius: .4rem;
-    font-size: 1.5rem;
+	border: 0.1rem solid var(--primary-color);
+	border-radius: 0.4rem;
+	font-size: 1.5rem;
 }
 
 .footer__news button {
@@ -97,6 +105,6 @@ i:hover{
 	right: 5px;
 	z-index: 2;
 	border: none;
-	top: 14px;	
+	top: 14px;
 	transform: translateX(2px);
 }

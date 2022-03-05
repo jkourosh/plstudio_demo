@@ -105,11 +105,14 @@ Transform:rotateX(30deg); */
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
+
 .hero__right--box:hover {
 	transition: all 0.3s ease-in-out;
 	transform: translateX(-1rem);
 }
-
+.hero__right:hover h2 {
+	font-style: italic;
+}
 .border_orange {
 	border-left: 3px solid orange;
 }

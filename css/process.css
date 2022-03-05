@@ -55,7 +55,7 @@
 	color: white;
 }
 .process__item--box h3 {
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	font-weight: 700;
 	color: var(--dark-color);
 	margin: 1.5rem 0;
@@ -63,7 +63,7 @@
 .process__item--box p {
 	font-size: 1.5rem;
 	font-weight: 400;
-	color: var(--secondary-color);
+	color: var(--secondry-color);
 	margin-bottom: 1.5rem;
 }
 

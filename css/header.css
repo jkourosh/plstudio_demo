@@ -8,6 +8,7 @@
 	align-items: center;
 	position: sticky;
     font-weight: 700;
+	font-size: larger;
 }
 .nav__logo img {
 	height: 7rem;
@@ -28,6 +29,7 @@
 }
 .nav__link:hover {
 	color: var(--primary-color);
+	font-style: italic;
 }
 
 

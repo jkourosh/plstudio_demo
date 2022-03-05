@@ -42,7 +42,7 @@ margin: -20rem 0;
 	flex-direction: row;
 }
 .web__wrapper--left-down h3{
-	font-size: 1.5rem;
+	font-size: 2rem;
    
 }
 .web__wrapper--left-down i{
@@ -56,6 +56,13 @@ margin: -20rem 0;
     padding: 1rem 2rem 0 0;
     color: var(--secondry-color);
 }
+
+.web__wrapper--left-down-box i:hover{
+	transform-style: flat;	
+	transition: all 0.3s linear;
+	  transform: scale(1.2);
+}
+
 i.orange {
 	background-color: var(--accent-color);
 }
@@ -64,12 +71,25 @@ i.blue {
 }
 
 .web__wrapper--right{
+	
 	margin:auto;
+}
+.web__wrapper--right img{
+	z-index: 999;
+}
+.web__wrapper--right-circle{
+	width: 25rem;
+	height: 25rem;
+	border-radius: 50%;
+	position: relative;
+	top: -5rem;
+	z-index: 0;
+	background-color: aquamarine;
 }
 .signup__wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
     align-items: center;
 	margin: 5rem 0;
 

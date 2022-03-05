@@ -23,7 +23,7 @@
 	width: 30%;
 }
 .bottom__wrapper--right-top h2 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	color: var(--dark-color);
 	border-radius: 2rem;
 	margin: 1rem 0;
@@ -40,7 +40,7 @@
 	flex-direction: row;
 }
 .bottom__wrapper--right-down h3 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .bottom__wrapper--right-down i {
 	padding: 1rem;
