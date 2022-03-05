@@ -7,7 +7,7 @@
 	text-align: center;
 	padding: 5rem 0;
 }
-#hero b{
+#hero b {
 	font-size: 5rem;
 	font-weight: 800;
 	color: var(--accent-color);
@@ -28,7 +28,7 @@
 	padding: 0 5rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
 }
 
@@ -39,38 +39,60 @@
 	justify-content: center;
 	align-items: baseline;
 }
-.hero__left b{
+
+.hero__left span {
+	overflow: auto;
+	width: 0;
+	height: 0;
+	border-bottom: 300px solid var(--accent-color);
+	border-left: 300px solid transparent;
+}
+
+.hero__left b {
 	font-size: 5rem;
 	font-weight: 800;
 	color: var(--accent-color);
 }
 .hero__left img {
 	display: inline-block;
+	background-color1: var(--accent-color);
+	transform1: rotate(-20deg);
 	height: 60%;
 	border-radius: 25rem;
 }
+.hero__left--circle img {
+	position: relative;
+	top: -30rem;
+	left: -10rem;
+	width: 100%;
+	height: auto;
+}
 .hero__left--happy {
 	position: relative;
-	top:-45rem;
-	left:-7rem;
+	top: -45rem;
+	left: -7rem;
 }
 .hero__left--happy h3 {
 	display: inline-block;
-	padding: .8rem .8rem .8rem 5rem;
+	padding: 0.8rem 0.8rem 0.8rem 5rem;
 
 	color: var(--light-color);
 	background-color: green;
 	border-radius: 0.8rem;
 }
+
+/* border-radius:50%;
+Transform:rotateX(30deg); */
 .hero__left--happy h2 {
-font-size: 2rem;
+	font-size: 2rem;
 }
 .hero__left--happy img {
 	position: absolute;
-	max-width:90%;
-	height:auto;
-	top:-3rem;
-	left:1rem;
+	max-width: 90%;
+	height: auto;
+	top: -3rem;
+	left: 1rem;
+	transform: rotateX(30deg);
 }
 .hero__right {
 	width: 50%;
@@ -78,10 +100,16 @@ font-size: 2rem;
 .hero__right--box {
 	padding: 3rem;
 	margin: 1rem;
-
 	box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
+.hero__right--box:hover {
+	transition: all 0.3s ease-in-out;
+	transform: translateX(-1rem);
+}
+
 .border_orange {
 	border-left: 3px solid orange;
 }

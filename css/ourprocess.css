@@ -6,16 +6,22 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-    padding: 10rem;
+	padding: 10rem;
 }
 
+.process__item--box {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.process__item--box:hover {
+	transform: translateY(-2rem);
+}
 .process__item h2 {
 	font-size: 4rem;
 	font-weight: 700;
 	line-height: 3.5rem;
 	margin-bottom: 1.5rem;
 	color: var(--dark-color);
-   
 }
 
 .process__item p {
@@ -23,24 +29,25 @@
 	opacity: 0.9;
 	color: var(--secondry-color);
 }
-.process__item--box { 
-   margin :3rem;
+
+.process__item--box {
+	margin: 3rem;
 	padding: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.5rem;
-  transition: all 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1.5rem;
+	transition: all 0.3s ease-in-out;
 }
-.color_daily{
-    background-color: rgba(245, 205, 165, 0.2);
+.color_daily {
+	background-color: rgba(245, 205, 165, 0.2);
 }
-.color_weekly{
-    background-color: rgba(224, 185, 247, 0.2);
+.color_weekly {
+	background-color: rgba(224, 185, 247, 0.2);
 }
-.color_testing{
-    background-color: rgba(167, 166, 166, 0.2);
+.color_testing {
+	background-color: rgba(167, 166, 166, 0.2);
 }
 .process__item--box i {
 	padding: 1.5rem;
@@ -59,6 +66,7 @@
 	color: var(--secondary-color);
 	margin-bottom: 1.5rem;
 }
+
 i.box--daily {
 	background-color: #f39c12;
 }
@@ -71,11 +79,11 @@ i.box--testing {
 	background-color: #e74c3c;
 }
 .process__active {
-    transition: all 0.3s ease-in-out;
-    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.5);
-    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-  }
-  
-  .process__active:hover {
-    transform: translateY(-2rem);
-  }
+	transition: all 0.3s ease-in-out;
+	box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.5);
+	-webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+}
+
+.process__active:hover {
+	transform: translateY(-2rem);
+}

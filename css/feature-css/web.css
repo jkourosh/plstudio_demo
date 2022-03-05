@@ -20,9 +20,7 @@ margin: -20rem 0;
     margin: 3rem;
 	width: 45%;
 }
-.web__wrapper--left-top{
 
-}
 .web__wrapper--left-top h2 {
 	font-size: 4rem;
 	color: var(--dark-color);
@@ -52,6 +50,7 @@ margin: -20rem 0;
     margin: 4rem 0;
     color:var(--light-color);
     border-radius: .5rem;
+	cursor: pointer;
 }
 .web__wrapper--left-down p{
     padding: 1rem 2rem 0 0;
