@@ -116,4 +116,11 @@ font-style: italic;
   padding: .4rem;
   font-weight: bold;
   color: var(--secondry-color);
+  	background: -webkit-linear-gradient(#333, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#copyright span{
+	font-style: italic;
+
 }
